@@ -24,7 +24,7 @@ def speak(text):
   engine.say(text)
   engine.runAndWait()
 
-print("Loaded API key:", os.getenv("GEMINI_API_KEY"))
+
 
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
@@ -58,6 +58,6 @@ while True:
   print("model: ",model_response)
   speak(model_response)
   print()
-  history.append({"role":"user","parts":{user_input}})
-  history.append({"role":"model","parts":{model_response}})
+  history.append({"role":"user","parts":[user_input]})
+  history.append({"role":"model","parts":[model_response]})
 
