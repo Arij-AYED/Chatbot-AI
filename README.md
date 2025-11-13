@@ -50,11 +50,11 @@ Then you can speak to it, and it will respond both in text and voice.
 ### How It Works
 Here’s the flow behind the scenes:
 
-1.Listen: Uses SpeechRecognition to capture your voice from the microphone.
-2.Understand: Converts your speech to text.
-3.Think: Sends your text to Google Gemini with a preconfigured system instruction (acting as a travel agency assistant).
-4.Speak: Reads out the AI response using pyttsx3.
-5.Context: Keeps a conversation history so responses are context-aware.
++ Listen: Uses SpeechRecognition to capture your voice from the microphone.
++ Understand: Converts your speech to text.
++ Think: Sends your text to Google Gemini with a preconfigured system instruction (acting as a travel agency assistant).
++ Speak: Reads out the AI response using pyttsx3.
++ Context: Keeps a conversation history so responses are context-aware.
 ---
 
 ### Features
