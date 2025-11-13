@@ -56,11 +56,11 @@ Here’s the flow behind the scenes:
 
 ### Features
 
-->Voice input & output — talk to the bot like a real assistant
-->Text feedback in the console
-->Context-aware responses using Gemini 1.5 Flash
-->Fast, lightweight, and easy to run
-->Secure API key stored in environment variables
++Voice input & output — talk to the bot like a real assistant
++Text feedback in the console
++Context-aware responses using Gemini 1.5 Flash
++Fast, lightweight, and easy to run
++Secure API key stored in environment variables
 
 ### Error handling for speech recognition or network issues
 
@@ -80,9 +80,9 @@ chatbot/
 ### Troubleshooting
 
  Bot doesn’t respond / GEMINI_API_KEY not found
--> Make sure .env exists in the root folder
--> Double-check your API key
++Make sure .env exists in the root folder
++Double-check your API key
 
  Speech isn’t recognized
--> Ensure your microphone is working and accessible
--> Speak clearly; noisy environments may reduce accuracy
+ +Ensure your microphone is working and accessible
+ +Speak clearly; noisy environments may reduce accuracy
