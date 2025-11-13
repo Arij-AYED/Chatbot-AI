@@ -5,6 +5,7 @@ It can listen to your voice, understand what you say, and respond naturally usin
 
 I designed it to feel like a friendly assistant, specifically as a travel agency helper for university students looking to study abroad.
 ---
+
 ## Quick Start
 ### 1. Clone the repository
 ```bash
@@ -44,6 +45,7 @@ The bot will start and say:
 Bot: hello how can I help you?
 ```
 Then you can speak to it, and it will respond both in text and voice.
+---
 
 ### How It Works
 Here’s the flow behind the scenes:
@@ -53,14 +55,16 @@ Here’s the flow behind the scenes:
 3.Think: Sends your text to Google Gemini with a preconfigured system instruction (acting as a travel agency assistant).
 4.Speak: Reads out the AI response using pyttsx3.
 5.Context: Keeps a conversation history so responses are context-aware.
+---
 
 ### Features
 
-+Voice input & output — talk to the bot like a real assistant
-+Text feedback in the console
-+Context-aware responses using Gemini 1.5 Flash
-+Fast, lightweight, and easy to run
-+Secure API key stored in environment variables
++ Voice input & output — talk to the bot like a real assistant
++ Text feedback in the console
++ Context-aware responses using Gemini 1.5 Flash
++ Fast, lightweight, and easy to run
++ Secure API key stored in environment variables
+---
 
 ### Error handling for speech recognition or network issues
 
@@ -72,7 +76,7 @@ chatbot/
 └── main.py               # Main chatbot script
 
 ```
-
+---
 ### Environment Variables
 + Variable	Description	Required
 + GEMINI_API_KEY	Google Gemini API key from AI Studio
@@ -80,9 +84,9 @@ chatbot/
 ### Troubleshooting
 
  Bot doesn’t respond / GEMINI_API_KEY not found
-+Make sure .env exists in the root folder
-+Double-check your API key
++ Make sure .env exists in the root folder
++ Double-check your API key
 
  Speech isn’t recognized
- +Ensure your microphone is working and accessible
- +Speak clearly; noisy environments may reduce accuracy
++ Ensure your microphone is working and accessible
++ Speak clearly; noisy environments may reduce accuracy
