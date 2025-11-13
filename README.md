@@ -1,4 +1,4 @@
- AI Voice Chatbot
+# AI Voice Chatbot
 
 This is my personal voice-enabled AI chatbot, built in Python and powered by Google Gemini API.
 It can listen to your voice, understand what you say, and respond naturally using speech synthesis.
